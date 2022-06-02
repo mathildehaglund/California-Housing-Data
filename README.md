@@ -1,2 +1,3 @@
 # California-Housing-Data
-Housing price prediction project at NMBU
+Housing price prediction project using streamlit
+NMBU
