@@ -58,4 +58,9 @@ st.write("---")
 X = X.drop("Unnamed: 0", axis=1)
 
 model = RandomForestRegressor()
-model.fit(X,Y)
+model.fit(X, Y)
+
+prediction = model.predict(input_data)
+
+st.header("prediction")
+st.write("Basert på dine tall predikerer modellen at boligprisen er %s US dollars" % prediction)
